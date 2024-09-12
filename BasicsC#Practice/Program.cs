@@ -25,13 +25,23 @@ namespace BasicsC_Practice
                 Title = "Git",
                 Author = "Ramesh"
             };
+            Book book4 = new Book
+            {
+                Title = "Azure",
+                Author = "shazeeb"
+            };
 
             bookList.Add(book1);
             bookList.Add(book);
             bookList.Add(book3);
+            bookList.Add(book4);
+            
+            
+            
             Console.WriteLine(bookList[0].Title+"," +bookList[0].Author);
             Console.WriteLine(bookList[1].Title+"," +bookList[1].Author);
             Console.WriteLine(bookList[2].Title+"," + bookList[2].Author);
+            Console.WriteLine(bookList[3].Title+"," + bookList[3].Author);
         }
      
     }
