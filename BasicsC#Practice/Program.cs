@@ -30,23 +30,7 @@ namespace BasicsC_Practice
                 Title = "Azure",
                 Author = "shazeeb"
             };
-            Book book5 = new Book
-            {
-                Title = "Azure",
-                Author = "shazeeb"
-            }; Book book6 = new Book
-            {
-                Title = "Azure",
-                Author = "shazeeb"
-            }; Book book7 = new Book
-            {
-                Title = "Azure",
-                Author = "shazeeb"
-            }; Book book8 = new Book
-            {
-                Title = "Azure",
-                Author = "shazeeb"
-            };
+           
 
             bookList.Add(book1);
             bookList.Add(book);
