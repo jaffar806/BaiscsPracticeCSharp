@@ -30,6 +30,11 @@ namespace BasicsC_Practice
                 Title = "Azure",
                 Author = "shazeeb"
             };
+            Book book4 = new Book
+            {
+                Title = "Aws",
+                Author = "mubashir"
+            };
            
 
             bookList.Add(book1);
